@@ -1,0 +1,29 @@
+JAVA SCRIPT:
+usado para a interação da pagina com o usuario:
+aula 02
+converter o real em dolar e vice e versa. valor do dolar 5,42. para saber quanto o real vale em dolar / por 5,42. para saber quanto o dolar vale em real * 5,42
+
+((PADRÕES JAVA= tudo que começa com letra maiuscula é FUNÇÃO, e letra minuscula é VARIAVEL)
+
+FUNÇÃO= 
+- console.log ( ) executa dentro dos parents e imprime no console
+- alert= Monta uma janela com texto dentro (e coloca o texto dentro dele) 
+
+da para criar funçoes de acordo com a necessidade e ele executa; como operaçoes matematicas
+a função precisa ser chamada para ser executada.
+para criar uma função usamos a palavra -FUNCTION- e damos um nome, e tudo que conter essa palavra se alterará quando ativado
+- function EscreverFrases(){
+    console.log("Imagine uma nova historia para sua vida e acredite nela.")
+}
+
+EscreverFrases() ----aparecerá no site do java e quantas vezes por, ele vai se repetir, como abaixo
+EscreverFrases()
+
+}
+
+ONCLICK HTML= programando no java a FUNÇÃO, vai ao html e adiciona ao button a ação, exp;  <button onclick="EscreverFrases()" type="submit">Converter</button>
+
+-funções com parametros. No FUNCTION damos um parametro ao programa escrevendo dentro do parentese 
+function Escreverfrases(texto){
+console.log(texto)
+}
